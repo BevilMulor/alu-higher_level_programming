@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-# python script fetching 'https://alu-intranet.hbtn.io/status'
-"""Fetches https://alx-intranet.hbtn.io/status"""
+# python script fetching 'http://0.0.0.0:5050/status'
+"""Fetches http://0.0.0.0:5050/status"""
 import requests
 
 
