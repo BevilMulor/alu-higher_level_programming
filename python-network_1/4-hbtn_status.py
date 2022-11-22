@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+# python script fetching 'https://alu-intranet.hbtn.io/status'
 """Fetches https://alx-intranet.hbtn.io/status"""
 import requests
 
