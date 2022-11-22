@@ -1,11 +1,11 @@
 #!/usr/bin/python3
-# python script fetching 'http://0.0.0.0:5050/status'
-"""Fetches http://0.0.0.0:5050/status"""
+# python script fetching 'https://alu-intranet.hbtn.io/status'
+""" fetch 'https://intranet.hbtn.io/status'"""
 import requests
 
 
 if __name__ == "__main__":
-    r = requests.get('https://alx-intranet.hbtn.io/status')
-    print('Body response:')
-    print('\t- type: {}'.format(type(r.text)))
-    print('\t- content: {}'.format(r.text))
+    r = requests.get("https://intranet.hbtn.io/status")
+    print("Body response:")
+    print("\t- type: {}".format(type(r.text)))
+    print("\t- content: {}".format(r.text))
