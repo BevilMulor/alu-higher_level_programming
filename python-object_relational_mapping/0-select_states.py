@@ -13,6 +13,7 @@ if __name__ == "__main__":
                          port=3306)
     cur = db.cursor()
     cur.execute("SELECT id, name FROM states ORDER BY id ASC")
+
     allStates = cur.fetchall()
 
     for state in allStates:
@@ -20,4 +21,7 @@ if __name__ == "__main__":
 
     cur.close()
     db.close()
+<<<<<<< HEAD
     
+=======
+>>>>>>> a88aa023930b2d34191e027de61979162a719199
