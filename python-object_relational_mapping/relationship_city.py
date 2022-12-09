@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# class definition of a City
+# class def of a city
 """
    Define 'City(Base)' class
    import 'sqlalchemy'
