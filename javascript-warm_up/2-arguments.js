@@ -4,3 +4,4 @@ if (process.argv.length <= 2){
   } else {
     console.log((process.argv.length > 3 ? 'Arguments' : 'Argument') + ' found');
   }
+  
