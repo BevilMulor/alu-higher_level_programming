@@ -1,0 +1,1 @@
+Readme file for javascript_objects_scopes_closures0-rectangle.js
